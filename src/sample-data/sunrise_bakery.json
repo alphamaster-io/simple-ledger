@@ -1,0 +1,4066 @@
+{
+ "setup": {
+  "BizName": "Sunrise Bakery & Café",
+  "BizType": "Food & Beverage",
+  "OwnerName": "Maria Santos",
+  "BizAddress": "123 Mabini St., Quezon City",
+  "BizEmail": "hello@sunrisebakery.example",
+  "BizPhone": "0917 555 0100",
+  "StartDate": "2026-01-01",
+  "FYStartMonthName": "January",
+  "Currency": "PHP",
+  "OpenCash": 15000,
+  "OpenBank": 285000,
+  "DefaultTerms": 30,
+  "TaxOn": "Yes",
+  "TaxLabel": "VAT"
+ },
+ "report": {
+  "year": 2026,
+  "month": "September"
+ },
+ "opening": {
+  "Inventory": 20000,
+  "Equipment": 180000,
+  "Loans Payable": 150000
+ },
+ "customers": [
+  {
+   "Name": "Brightpath Academy",
+   "Contact": "Ana Reyes",
+   "Email": "admin@brightpath.example",
+   "Phone": "0917 555 0101",
+   "Terms": 30
+  },
+  {
+   "Name": "Northwind Offices",
+   "Contact": "Carlo Dizon",
+   "Email": "events@northwind.example",
+   "Phone": "0917 555 0102",
+   "Terms": 15
+  },
+  {
+   "Name": "Casa Verde Events",
+   "Contact": "Bea Lim",
+   "Email": "bea@casaverde.example",
+   "Phone": "0917 555 0103",
+   "Terms": 30
+  },
+  {
+   "Name": "Luntian Coworking",
+   "Contact": "Paolo Cruz",
+   "Email": "ops@luntian.example",
+   "Phone": "0917 555 0104",
+   "Terms": 15
+  },
+  {
+   "Name": "St. Jude Clinic",
+   "Contact": "Dr. Rosa Tan",
+   "Email": "office@stjude.example",
+   "Phone": "0917 555 0105",
+   "Terms": 30
+  }
+ ],
+ "vendors": [
+  {
+   "Name": "Golden Grain Flour Mill",
+   "Contact": "Mr. Uy",
+   "Phone": "02 8555 0201",
+   "Terms": 30
+  },
+  {
+   "Name": "Fresh Dairy Co.",
+   "Contact": "Liza",
+   "Phone": "02 8555 0202",
+   "Terms": 15
+  },
+  {
+   "Name": "PackRight Supplies",
+   "Contact": "Jun",
+   "Phone": "02 8555 0203",
+   "Terms": 30
+  }
+ ],
+ "transactions": [
+  {
+   "Date": "2026-01-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-01"
+  },
+  {
+   "Date": "2026-01-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 43084.99,
+   "Tax": 4616.25,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 16978.36,
+   "Tax": 1819.11,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-01-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 36600.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 2776.35,
+   "Tax": 297.47,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 3835.19,
+   "Tax": 410.91,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-01-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-01-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-01-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1500,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-01-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 42316.87,
+   "Tax": 4533.95,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22825.17,
+   "Tax": 2445.55,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-01-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 9162.96,
+   "Tax": 981.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 36000.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 61115.56,
+   "Tax": 6548.1,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 17837.56,
+   "Tax": 1911.17,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-01-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 51900.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4029.57,
+   "Tax": 431.74,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 60161.37,
+   "Tax": 6445.86,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 15775.69,
+   "Tax": 1690.25,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-01-26",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 18581.84,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-012",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 51100.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-01-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 50200.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-01-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-01-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-02-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-02"
+  },
+  {
+   "Date": "2026-02-02",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 18464.42,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-011",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 54543.17,
+   "Tax": 5843.91,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-05",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Partial payment",
+   "Money": "Bank Account",
+   "Amount": 20273.83,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1002",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22766.39,
+   "Tax": 2439.26,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-02-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 5285.19,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 46400.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 2849.94,
+   "Tax": 305.35,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 5589.97,
+   "Tax": 598.92,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-02-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-02-10",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 40022.39,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-012",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-02-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1440,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-02-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 45728.07,
+   "Tax": 4899.44,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 14444.75,
+   "Tax": 1547.65,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-02-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 10133.34,
+   "Tax": 1085.72,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 38900.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-14",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 23665.51,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1001",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-14",
+   "Type": "Money Out",
+   "Category": "Taxes & Licenses",
+   "Desc": "Business permit renewal",
+   "Money": "Bank Account",
+   "Amount": 7800,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-16",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 44768.62,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-011",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-17",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 9618.83,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-011",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 49252.74,
+   "Tax": 5277.08,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 14327.04,
+   "Tax": 1535.04,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-02-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 41900.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4752.29,
+   "Tax": 509.17,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-22",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 21310.46,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1005",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-25",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Balance payment",
+   "Money": "Bank Account",
+   "Amount": 20273.84,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1002",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 55884.42,
+   "Tax": 5987.62,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 17317.78,
+   "Tax": 1855.48,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-02-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 47500.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-02-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 44200.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-02-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-02-28",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-03-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-03"
+  },
+  {
+   "Date": "2026-03-03",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 15771.18,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-021",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 54153.2,
+   "Tax": 5802.13,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22503.88,
+   "Tax": 2411.13,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-03-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 7039.97,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 46000.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 4022.28,
+   "Tax": 430.96,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-08",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 19350.56,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-022",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-08",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 6988.51,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-021",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 5460.76,
+   "Tax": 585.08,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-03-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-03-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-03-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1380,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-03-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 59824.8,
+   "Tax": 6409.8,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 20962.71,
+   "Tax": 2246.0,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-03-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 12220.9,
+   "Tax": 1309.38,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 50900.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-17",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 33454.88,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-021",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 46936.07,
+   "Tax": 5028.86,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 20500.12,
+   "Tax": 2196.44,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-03-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 39900.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4100.81,
+   "Tax": 439.37,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-20",
+   "Type": "Money Out",
+   "Category": "Professional Fees",
+   "Desc": "Bookkeeper — Q1 VAT filing",
+   "Money": "Bank Account",
+   "Amount": 12000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-22",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 19040.4,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-031",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-24",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 40282.36,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-022",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 50219.43,
+   "Tax": 5380.65,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 14833.49,
+   "Tax": 1589.3,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-03-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 42700.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-03-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 51400.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-03-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-03-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-03-30",
+   "Type": "Money In",
+   "Category": "Interest Income",
+   "Desc": "Bank interest",
+   "Money": "Bank Account",
+   "Amount": 90.58,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-04"
+  },
+  {
+   "Date": "2026-04-02",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 35728.47,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1003",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-02",
+   "Type": "Owner Investment",
+   "Category": "",
+   "Desc": "Owner capital for new oven",
+   "Money": "Bank Account",
+   "Amount": 50000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 59473.55,
+   "Tax": 6372.17,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-05",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 9645.48,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-031",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 16625.49,
+   "Tax": 1781.3,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-04-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 6910.76,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 50600.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3652.7,
+   "Tax": 391.36,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-06",
+   "Type": "Money Out",
+   "Category": "Equipment",
+   "Desc": "Deck oven (3-tray)",
+   "Money": "Bank Account",
+   "Amount": 112000,
+   "Tax": 12000.0,
+   "Method": "Bank Transfer",
+   "Vendor": "PackRight Supplies",
+   "Ref": "OR-55821"
+  },
+  {
+   "Date": "2026-04-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 5493.49,
+   "Tax": 588.59,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-04-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-04-10",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 51294.42,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-032",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-04-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1320,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-04-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 47243.35,
+   "Tax": 5061.79,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 23423.91,
+   "Tax": 2509.7,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-04-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 11798.25,
+   "Tax": 1264.1,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 40200.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-14",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 51386.35,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-031",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-14",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 16582.27,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-032",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-15",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 24998.54,
+   "Customer": "Luntian Coworking",
+   "Ref": "INV-1007",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 51494.21,
+   "Tax": 5517.24,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 16440.75,
+   "Tax": 1761.51,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-04-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 43800.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 3640.56,
+   "Tax": 390.06,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-25",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 29856.65,
+   "Customer": "St. Jude Clinic",
+   "Ref": "INV-1004",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 48194.06,
+   "Tax": 5163.65,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22208.87,
+   "Tax": 2379.52,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-04-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 41000.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-04-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 54400.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-04-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-04-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-05-01",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 16450.6,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-041",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-05"
+  },
+  {
+   "Date": "2026-05-03",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Partial payment",
+   "Money": "Bank Account",
+   "Amount": 7434.19,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1008",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 61285.13,
+   "Tax": 6566.26,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-05",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 36226.24,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-041",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 23636.44,
+   "Tax": 2532.48,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-05-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 6943.49,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 52100.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3161.61,
+   "Tax": 338.74,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 5912.97,
+   "Tax": 633.53,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-05-09",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 8714.58,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-041",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-05-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-05-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1260,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-05-11",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 38801.41,
+   "Customer": "Casa Verde Events",
+   "Ref": "INV-1006",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 61835.44,
+   "Tax": 6625.23,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22445.37,
+   "Tax": 2404.86,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-05-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 11861.48,
+   "Tax": 1270.87,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-13",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 12966.48,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-042",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 52600.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-15",
+   "Type": "Money Out",
+   "Category": "Insurance",
+   "Desc": "Shop insurance (annual)",
+   "Money": "Bank Account",
+   "Amount": 9800,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 63320.16,
+   "Tax": 6784.3,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-19",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 13390.41,
+   "Customer": "St. Jude Clinic",
+   "Ref": "INV-1009",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-19",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 32169.81,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-042",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 16619.5,
+   "Tax": 1780.66,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-05-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 53800.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 5102.08,
+   "Tax": 546.65,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-23",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Balance payment",
+   "Money": "Bank Account",
+   "Amount": 7434.19,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1008",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 50646.14,
+   "Tax": 5426.37,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 18880.07,
+   "Tax": 2022.86,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-05-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 43000.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-05-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 44700.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-05-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-05-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-05-30",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 9210.3,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-051",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-01",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 15599.17,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-051",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-06"
+  },
+  {
+   "Date": "2026-06-03",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 19453.81,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-052",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 48316.74,
+   "Tax": 5176.79,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-05",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 43186.92,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-051",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 17722.92,
+   "Tax": 1898.88,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-06-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 7362.97,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 41100.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3207.58,
+   "Tax": 343.67,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 5990.2,
+   "Tax": 641.81,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-06-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-06-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-06-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1200,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-06-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 59792.22,
+   "Tax": 6406.31,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 16636.16,
+   "Tax": 1782.45,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-06-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 13128.51,
+   "Tax": 1406.63,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-13",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 48327.06,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-052",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 50800.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 58377.89,
+   "Tax": 6254.77,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-18",
+   "Type": "Money Out",
+   "Category": "Refunds & Discounts",
+   "Desc": "Refund — damaged cake order",
+   "Money": "Cash on Hand",
+   "Amount": 1680,
+   "Tax": 180.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 14242.61,
+   "Tax": 1525.99,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-06-19",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 12913.67,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-061",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 49600.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4489.9,
+   "Tax": 481.06,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-21",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 28239.26,
+   "Customer": "Casa Verde Events",
+   "Ref": "INV-1011",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-22",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Partial payment",
+   "Money": "Bank Account",
+   "Amount": 18290.96,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1014",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 51137.16,
+   "Tax": 5478.98,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-26",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Partial payment",
+   "Money": "Bank Account",
+   "Amount": 19384.04,
+   "Customer": "Casa Verde Events",
+   "Ref": "INV-1012",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 20298.41,
+   "Tax": 2174.83,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-06-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 43500.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-06-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 44100.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-06-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-06-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-06-30",
+   "Type": "Money In",
+   "Category": "Interest Income",
+   "Desc": "Bank interest",
+   "Money": "Bank Account",
+   "Amount": 108.0,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-07"
+  },
+  {
+   "Date": "2026-07-04",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 12473.46,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-062",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 49962.0,
+   "Tax": 5353.07,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 21839.02,
+   "Tax": 2339.89,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-07-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 7440.2,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-06",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 30986.89,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-061",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 42500.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3759.29,
+   "Tax": 402.78,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 4337.28,
+   "Tax": 464.71,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-07-09",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 41106.95,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1015",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-07-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-07-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1140,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-07-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 54568.07,
+   "Tax": 5846.58,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-11",
+   "Type": "Money Out",
+   "Category": "Repairs & Maintenance",
+   "Desc": "Mixer motor repair",
+   "Money": "Cash on Hand",
+   "Amount": 6500,
+   "Tax": 696.43,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-12",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Balance payment",
+   "Money": "Bank Account",
+   "Amount": 18290.95,
+   "Customer": "Brightpath Academy",
+   "Ref": "INV-1014",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 23256.12,
+   "Tax": 2491.73,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-07-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 12256.86,
+   "Tax": 1313.23,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 46400.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-14",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 12922.61,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-071",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-15",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 6460.39,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-061",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-16",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Balance payment",
+   "Money": "Bank Account",
+   "Amount": 19384.05,
+   "Customer": "Casa Verde Events",
+   "Ref": "INV-1012",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 53485.43,
+   "Tax": 5730.58,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-19",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 30856.26,
+   "Customer": "St. Jude Clinic",
+   "Ref": "INV-1013",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 15207.53,
+   "Tax": 1629.38,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-07-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 45500.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4740.16,
+   "Tax": 507.87,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 49199.04,
+   "Tax": 5271.33,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 21062.27,
+   "Tax": 2256.67,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-07-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 41800.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 57600.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-07-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-28",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 19176.88,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-072",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-30",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 32206.93,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-062",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-07-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-07-30",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 10348.47,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-071",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-08"
+  },
+  {
+   "Date": "2026-08-04",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 38993.36,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1010",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-04",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 39028.98,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-071",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 63660.69,
+   "Tax": 6820.79,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-05",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 13130.45,
+   "Customer": "St. Jude Clinic",
+   "Ref": "INV-1017",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 21053.29,
+   "Tax": 2255.71,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-08-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 5787.28,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 54100.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3804.02,
+   "Tax": 407.57,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 4834.68,
+   "Tax": 518.0,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-08-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-08-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-08-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1080,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-08-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 53186.9,
+   "Tax": 5698.6,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 20929.64,
+   "Tax": 2242.46,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-08-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 10795.27,
+   "Tax": 1156.64,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 45200.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-15",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 42203.51,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-072",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 52180.26,
+   "Tax": 5590.74,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-18",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 17628.93,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-081",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 15266.33,
+   "Tax": 1635.68,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-08-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 44400.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 3502.8,
+   "Tax": 375.3,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 60802.47,
+   "Tax": 6514.55,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 23188.88,
+   "Tax": 2484.52,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-08-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 51700.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-08-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 46400.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-08-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-29",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 19124.37,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-082",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-29",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 8354.29,
+   "Vendor": "PackRight Supplies",
+   "Ref": "PA-081",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-08-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-09-01",
+   "Type": "Money Out",
+   "Category": "Rent",
+   "Desc": "Shop rent",
+   "Money": "Bank Account",
+   "Amount": 28000,
+   "Tax": 3000.0,
+   "Method": "Bank Transfer",
+   "Ref": "RENT-09"
+  },
+  {
+   "Date": "2026-09-03",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 37907.57,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1018",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-04",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 1",
+   "Money": "Cash on Hand",
+   "Amount": 55687.5,
+   "Tax": 5966.52,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-05",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 1",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 15106.24,
+   "Tax": 1618.53,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-09-05",
+   "Type": "Transfer",
+   "Category": "Credit Card",
+   "Desc": "Credit card payment",
+   "Money": "Bank Account",
+   "Amount": 6284.68,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-06",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 47300.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-06",
+   "Type": "Money Out",
+   "Category": "Other Direct Costs",
+   "Desc": "Boxes & paper bags (market)",
+   "Money": "Cash on Hand",
+   "Amount": 3206.02,
+   "Tax": 343.5,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-07",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 32512.92,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1016",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-08",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 44984.06,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-081",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-08",
+   "Type": "Money Out",
+   "Category": "Advertising & Marketing",
+   "Desc": "Facebook / Instagram ads",
+   "Money": "Credit Card",
+   "Amount": 4310.4,
+   "Tax": 461.83,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-09-09",
+   "Type": "Money Out",
+   "Category": "Software & Subscriptions",
+   "Desc": "POS app subscription",
+   "Money": "Credit Card",
+   "Amount": 1450,
+   "Tax": 155.36,
+   "Method": "Credit Card"
+  },
+  {
+   "Date": "2026-09-10",
+   "Type": "Money Out",
+   "Category": "Loans Payable",
+   "Desc": "Loan principal",
+   "Money": "Bank Account",
+   "Amount": 8000,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-09-10",
+   "Type": "Money Out",
+   "Category": "Interest Expense",
+   "Desc": "Loan interest",
+   "Money": "Bank Account",
+   "Amount": 1020,
+   "Method": "Bank Transfer",
+   "Ref": "LOAN"
+  },
+  {
+   "Date": "2026-09-11",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 43697.89,
+   "Vendor": "Golden Grain Flour Mill",
+   "Ref": "GO-082",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-11",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 2",
+   "Money": "Cash on Hand",
+   "Amount": 43895.18,
+   "Tax": 4703.05,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-12",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 2",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 18164.78,
+   "Tax": 1946.23,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-09-12",
+   "Type": "Money Out",
+   "Category": "Utilities",
+   "Desc": "Electricity & water",
+   "Money": "Bank Account",
+   "Amount": 11361.12,
+   "Tax": 1217.26,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-13",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 37300.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-15",
+   "Type": "Money Out",
+   "Category": "Internet & Phone",
+   "Desc": "Fiber internet",
+   "Money": "Bank Account",
+   "Amount": 2499,
+   "Tax": 267.75,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-15",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-15",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (1st-15th)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-18",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 3",
+   "Money": "Cash on Hand",
+   "Amount": 60714.52,
+   "Tax": 6505.13,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-18",
+   "Type": "Customer Payment",
+   "Category": "",
+   "Desc": "Invoice payment",
+   "Money": "Bank Account",
+   "Amount": 19955.56,
+   "Customer": "Northwind Offices",
+   "Ref": "INV-1022",
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-19",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 3",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 14381.81,
+   "Tax": 1540.91,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-09-20",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 51600.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-20",
+   "Type": "Money Out",
+   "Category": "Transportation & Delivery",
+   "Desc": "Delivery fuel",
+   "Money": "Cash on Hand",
+   "Amount": 4467.21,
+   "Tax": 478.63,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-25",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "Counter sales week 4",
+   "Money": "Cash on Hand",
+   "Amount": 56289.68,
+   "Tax": 6031.04,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-25",
+   "Type": "Owner Draw",
+   "Category": "",
+   "Desc": "Owner salary / personal draw",
+   "Money": "Bank Account",
+   "Amount": 20000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-26",
+   "Type": "Money In",
+   "Category": "Product Sales",
+   "Desc": "GCash / online orders week 4",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 22684.21,
+   "Tax": 2430.45,
+   "Method": "E-Wallet"
+  },
+  {
+   "Date": "2026-09-27",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "Cash deposit to bank",
+   "Money": "Cash on Hand",
+   "Amount": 47800.0,
+   "Method": "Cash"
+  },
+  {
+   "Date": "2026-09-27",
+   "Type": "Money Out",
+   "Category": "Bank & Payment Fees",
+   "Desc": "Monthly bank charge",
+   "Money": "Bank Account",
+   "Amount": 150,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-28",
+   "Type": "Transfer",
+   "Category": "Bank Account",
+   "Desc": "E-wallet cash-out to bank",
+   "Money": "E-Wallet / Online Payments",
+   "Amount": 41100.0,
+   "Method": "Online Payment"
+  },
+  {
+   "Date": "2026-09-28",
+   "Type": "Money Out",
+   "Category": "Direct Labor",
+   "Desc": "Bakers' salaries (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 38000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-28",
+   "Type": "Money Out",
+   "Category": "Salaries & Wages",
+   "Desc": "Cashier salary (16th-end)",
+   "Money": "Bank Account",
+   "Amount": 9000,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-30",
+   "Type": "Adjustment",
+   "Category": "Depreciation",
+   "Desc": "Monthly depreciation of equipment",
+   "Money": "Accumulated Depreciation",
+   "Amount": 3000
+  },
+  {
+   "Date": "2026-09-30",
+   "Type": "Money In",
+   "Category": "Interest Income",
+   "Desc": "Bank interest",
+   "Money": "Bank Account",
+   "Amount": 97.66,
+   "Method": "Bank Transfer"
+  },
+  {
+   "Date": "2026-09-30",
+   "Type": "Bill Payment",
+   "Category": "",
+   "Desc": "Supplier payment",
+   "Money": "Bank Account",
+   "Amount": 13034.76,
+   "Vendor": "Fresh Dairy Co.",
+   "Ref": "FR-091",
+   "Method": "Bank Transfer"
+  }
+ ],
+ "invoices": [
+  {
+   "No": "INV-1001",
+   "Date": "2026-01-10",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 23665.51,
+   "Tax": 2535.59
+  },
+  {
+   "No": "INV-1002",
+   "Date": "2026-01-22",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 40547.67,
+   "Tax": 4344.39
+  },
+  {
+   "No": "INV-1003",
+   "Date": "2026-01-22",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 35728.47,
+   "Tax": 3828.05
+  },
+  {
+   "No": "INV-1004",
+   "Date": "2026-02-14",
+   "Party": "St. Jude Clinic",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 29856.65,
+   "Tax": 3198.93
+  },
+  {
+   "No": "INV-1005",
+   "Date": "2026-02-12",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 21310.46,
+   "Tax": 2283.26
+  },
+  {
+   "No": "INV-1006",
+   "Date": "2026-03-02",
+   "Party": "Casa Verde Events",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 38801.41,
+   "Tax": 4157.29
+  },
+  {
+   "No": "INV-1007",
+   "Date": "2026-03-26",
+   "Party": "Luntian Coworking",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 24998.54,
+   "Tax": 2678.41
+  },
+  {
+   "No": "INV-1008",
+   "Date": "2026-04-23",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 14868.38,
+   "Tax": 1593.04
+  },
+  {
+   "No": "INV-1009",
+   "Date": "2026-04-14",
+   "Party": "St. Jude Clinic",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 13390.41,
+   "Tax": 1434.69
+  },
+  {
+   "No": "INV-1010",
+   "Date": "2026-05-26",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 38993.36,
+   "Tax": 4177.86
+  },
+  {
+   "No": "INV-1011",
+   "Date": "2026-05-24",
+   "Party": "Casa Verde Events",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 28239.26,
+   "Tax": 3025.63
+  },
+  {
+   "No": "INV-1012",
+   "Date": "2026-05-22",
+   "Party": "Casa Verde Events",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 38768.09,
+   "Tax": 4153.72
+  },
+  {
+   "No": "INV-1013",
+   "Date": "2026-06-21",
+   "Party": "St. Jude Clinic",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 30856.26,
+   "Tax": 3306.03
+  },
+  {
+   "No": "INV-1014",
+   "Date": "2026-06-02",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 36581.91,
+   "Tax": 3919.49
+  },
+  {
+   "No": "INV-1015",
+   "Date": "2026-06-11",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 41106.95,
+   "Tax": 4404.32
+  },
+  {
+   "No": "INV-1016",
+   "Date": "2026-07-24",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 32512.92,
+   "Tax": 3483.53
+  },
+  {
+   "No": "INV-1017",
+   "Date": "2026-07-16",
+   "Party": "St. Jude Clinic",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 13130.45,
+   "Tax": 1406.83
+  },
+  {
+   "No": "INV-1018",
+   "Date": "2026-08-06",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 37907.57,
+   "Tax": 4061.53
+  },
+  {
+   "No": "INV-1019",
+   "Date": "2026-08-17",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 39529.41,
+   "Tax": 4235.29
+  },
+  {
+   "No": "INV-1020",
+   "Date": "2026-09-15",
+   "Party": "St. Jude Clinic",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 14215.98,
+   "Tax": 1523.14
+  },
+  {
+   "No": "INV-1021",
+   "Date": "2026-09-08",
+   "Party": "Brightpath Academy",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 44610.18,
+   "Tax": 4779.66
+  },
+  {
+   "No": "INV-1022",
+   "Date": "2026-09-04",
+   "Party": "Northwind Offices",
+   "Desc": "Catering order",
+   "Account": "Service Income",
+   "Amount": 19955.56,
+   "Tax": 2138.1
+  }
+ ],
+ "bills": [
+  {
+   "No": "GO-011",
+   "Date": "2026-01-05",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 44768.62,
+   "Tax": 4796.64
+  },
+  {
+   "No": "GO-012",
+   "Date": "2026-01-16",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 40022.39,
+   "Tax": 4288.11
+  },
+  {
+   "No": "FR-011",
+   "Date": "2026-01-06",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 18464.42,
+   "Tax": 1978.33
+  },
+  {
+   "No": "FR-012",
+   "Date": "2026-01-16",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 18581.84,
+   "Tax": 1990.91
+  },
+  {
+   "No": "PA-011",
+   "Date": "2026-01-06",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 9618.83,
+   "Tax": 1030.59
+  },
+  {
+   "No": "GO-021",
+   "Date": "2026-02-03",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 33454.88,
+   "Tax": 3584.45
+  },
+  {
+   "No": "GO-022",
+   "Date": "2026-02-19",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 40282.36,
+   "Tax": 4315.97
+  },
+  {
+   "No": "FR-021",
+   "Date": "2026-02-04",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 15771.18,
+   "Tax": 1689.77
+  },
+  {
+   "No": "FR-022",
+   "Date": "2026-02-18",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19350.56,
+   "Tax": 2073.27
+  },
+  {
+   "No": "PA-021",
+   "Date": "2026-02-03",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 6988.51,
+   "Tax": 748.77
+  },
+  {
+   "No": "GO-031",
+   "Date": "2026-03-03",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 51386.35,
+   "Tax": 5505.68
+  },
+  {
+   "No": "GO-032",
+   "Date": "2026-03-16",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 51294.42,
+   "Tax": 5495.83
+  },
+  {
+   "No": "FR-031",
+   "Date": "2026-03-04",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19040.4,
+   "Tax": 2040.04
+  },
+  {
+   "No": "FR-032",
+   "Date": "2026-03-18",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 16582.27,
+   "Tax": 1776.67
+  },
+  {
+   "No": "PA-031",
+   "Date": "2026-03-06",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 9645.48,
+   "Tax": 1033.44
+  },
+  {
+   "No": "GO-041",
+   "Date": "2026-04-05",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 36226.24,
+   "Tax": 3881.38
+  },
+  {
+   "No": "GO-042",
+   "Date": "2026-04-16",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 32169.81,
+   "Tax": 3446.77
+  },
+  {
+   "No": "FR-041",
+   "Date": "2026-04-04",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 16450.6,
+   "Tax": 1762.56
+  },
+  {
+   "No": "FR-042",
+   "Date": "2026-04-16",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 12966.48,
+   "Tax": 1389.27
+  },
+  {
+   "No": "PA-041",
+   "Date": "2026-04-06",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 8714.58,
+   "Tax": 933.7
+  },
+  {
+   "No": "GO-051",
+   "Date": "2026-05-03",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 43186.92,
+   "Tax": 4627.17
+  },
+  {
+   "No": "GO-052",
+   "Date": "2026-05-19",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 48327.06,
+   "Tax": 5177.9
+  },
+  {
+   "No": "FR-051",
+   "Date": "2026-05-05",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 15599.17,
+   "Tax": 1671.34
+  },
+  {
+   "No": "FR-052",
+   "Date": "2026-05-16",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19453.81,
+   "Tax": 2084.34
+  },
+  {
+   "No": "PA-051",
+   "Date": "2026-05-05",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 9210.3,
+   "Tax": 986.82
+  },
+  {
+   "No": "GO-061",
+   "Date": "2026-06-06",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 30986.89,
+   "Tax": 3320.02
+  },
+  {
+   "No": "GO-062",
+   "Date": "2026-06-18",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 32206.93,
+   "Tax": 3450.74
+  },
+  {
+   "No": "FR-061",
+   "Date": "2026-06-04",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 12913.67,
+   "Tax": 1383.61
+  },
+  {
+   "No": "FR-062",
+   "Date": "2026-06-19",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 12473.46,
+   "Tax": 1336.44
+  },
+  {
+   "No": "PA-061",
+   "Date": "2026-06-03",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 6460.39,
+   "Tax": 692.18
+  },
+  {
+   "No": "GO-071",
+   "Date": "2026-07-05",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 39028.98,
+   "Tax": 4181.68
+  },
+  {
+   "No": "GO-072",
+   "Date": "2026-07-16",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 42203.51,
+   "Tax": 4521.8
+  },
+  {
+   "No": "FR-071",
+   "Date": "2026-07-04",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 12922.61,
+   "Tax": 1384.57
+  },
+  {
+   "No": "FR-072",
+   "Date": "2026-07-18",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19176.88,
+   "Tax": 2054.67
+  },
+  {
+   "No": "PA-071",
+   "Date": "2026-07-05",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 10348.47,
+   "Tax": 1108.76
+  },
+  {
+   "No": "GO-081",
+   "Date": "2026-08-06",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 44984.06,
+   "Tax": 4819.72
+  },
+  {
+   "No": "GO-082",
+   "Date": "2026-08-17",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 43697.89,
+   "Tax": 4681.92
+  },
+  {
+   "No": "FR-081",
+   "Date": "2026-08-03",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 17628.93,
+   "Tax": 1888.81
+  },
+  {
+   "No": "FR-082",
+   "Date": "2026-08-19",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19124.37,
+   "Tax": 2049.04
+  },
+  {
+   "No": "PA-081",
+   "Date": "2026-08-04",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 8354.29,
+   "Tax": 895.1
+  },
+  {
+   "No": "GO-091",
+   "Date": "2026-09-04",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 32690.52,
+   "Tax": 3502.56
+  },
+  {
+   "No": "GO-092",
+   "Date": "2026-09-18",
+   "Party": "Golden Grain Flour Mill",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 49132.94,
+   "Tax": 5264.24
+  },
+  {
+   "No": "FR-091",
+   "Date": "2026-09-03",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 13034.76,
+   "Tax": 1396.58
+  },
+  {
+   "No": "FR-092",
+   "Date": "2026-09-18",
+   "Party": "Fresh Dairy Co.",
+   "Desc": "Ingredients delivery",
+   "Account": "Direct Materials",
+   "Amount": 19523.98,
+   "Tax": 2091.85
+  },
+  {
+   "No": "PA-091",
+   "Date": "2026-09-06",
+   "Party": "PackRight Supplies",
+   "Desc": "Packaging",
+   "Account": "Other Direct Costs",
+   "Amount": 8794.78,
+   "Tax": 942.3
+  }
+ ]
+}

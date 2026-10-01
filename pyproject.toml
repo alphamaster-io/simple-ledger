@@ -1,0 +1,14 @@
+[project]
+name = "simpleledger"
+version = "1.0.0"
+description = "Generator, tests and tooling for the SimpleLedger small-business accounting Excel workbook"
+requires-python = ">=3.10"
+dependencies = ["openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyflakes>=3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tools", "tests"]
+addopts = "-ra"
