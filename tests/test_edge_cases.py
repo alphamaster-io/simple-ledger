@@ -5,6 +5,7 @@ import datetime as dt
 import pytest
 
 from conftest import as_date, needs_lo
+from simpleledger.reports import LEDGER_FIRST
 
 pytestmark = needs_lo
 
@@ -77,5 +78,5 @@ def test_single_transaction(books):
 def test_ledger_lists_entries_in_date_order(books):
     b = books["boundaries"]
     ws = b.ws("LEDGER")
-    dates = [as_date(ws[f"C{r}"].value) for r in range(14, 40) if ws[f"C{r}"].value]
+    dates = [as_date(ws[f"C{r}"].value) for r in range(LEDGER_FIRST, LEDGER_FIRST + 30) if ws[f"C{r}"].value]
     assert dates == sorted(dates) and len(dates) >= 5

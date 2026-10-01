@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "simpleledger"
 version = "1.0.0"
@@ -12,3 +16,7 @@ dev = ["pytest>=8", "pyflakes>=3"]
 testpaths = ["tests"]
 pythonpath = ["src", "tools", "tests"]
 addopts = "-ra"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["simpleledger*"]

@@ -267,10 +267,10 @@ def build_dashboard(wb, ws, ms) -> None:
     cats = Reference(ws, min_col=16, min_row=4, max_row=15)
     c1 = BarChart()
     c1.type = "col"
-    c1.title = "Revenue vs Expenses by Month"
+    c1.title = "Revenue vs Expenses"
     c1.add_data(Reference(ws, min_col=17, max_col=18, min_row=3, max_row=15), titles_from_data=True)
     c1.set_categories(cats)
-    c1.height, c1.width = 7.5, 15.5
+    c1.height, c1.width = 7.5, 12.6
     c1.y_axis.numFmt = "#,##0"
     c1.y_axis.majorGridlines = None
     c1.legend.position = "b"
@@ -282,7 +282,7 @@ def build_dashboard(wb, ws, ms) -> None:
     c2.title = "Net Profit by Month"
     c2.add_data(Reference(ws, min_col=19, min_row=3, max_row=15), titles_from_data=True)
     c2.set_categories(cats)
-    c2.height, c2.width = 7.5, 15.5
+    c2.height, c2.width = 7.5, 12.6
     c2.y_axis.numFmt = "#,##0"
     c2.legend = None
     c2.y_axis.majorGridlines = None
@@ -291,10 +291,10 @@ def build_dashboard(wb, ws, ms) -> None:
 
     c3 = BarChart()
     c3.type = "bar"
-    c3.title = "Top Expenses (Year to Date)"
+    c3.title = "Top Expenses (YTD)"
     c3.add_data(Reference(ws, min_col=17, min_row=18, max_row=17 + M.TOP_N), titles_from_data=False)
     c3.set_categories(Reference(ws, min_col=16, min_row=18, max_row=17 + M.TOP_N))
-    c3.height, c3.width = 7.5, 15.5
+    c3.height, c3.width = 7.5, 12.6
     c3.legend = None
     c3.x_axis.scaling.orientation = "maxMin"
     c3.y_axis.numFmt = "#,##0"
@@ -304,10 +304,10 @@ def build_dashboard(wb, ws, ms) -> None:
 
     c4 = BarChart()
     c4.type = "col"
-    c4.title = "Receivables & Payables Aging"
+    c4.title = "AR & AP Aging"
     c4.add_data(Reference(ws, min_col=17, max_col=18, min_row=24, max_row=29), titles_from_data=True)
     c4.set_categories(Reference(ws, min_col=16, min_row=25, max_row=29))
-    c4.height, c4.width = 7.5, 15.5
+    c4.height, c4.width = 7.5, 12.6
     c4.y_axis.numFmt = "#,##0"
     c4.y_axis.majorGridlines = None
     c4.legend.position = "b"

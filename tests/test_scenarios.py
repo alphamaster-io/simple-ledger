@@ -53,6 +53,7 @@ def test_vat_payable_nets_output_and_input_tax(books):
 
 def test_tax_off_ignores_tax_columns(books):
     b = books["tax_off"]
-    assert b.calc()["Tax Payable"]["Bal"] == 0
+    assert sum(b.name("j_TaxDr")) == 0 and sum(b.name("j_TaxCr")) == 0
+    assert b.calc()["Tax Payable"]["Bal"] == 1000   # only the explicit VAT remittance (scenario 31)
     checks = b.column("TRANSACTIONS", "Check")
     assert str(checks[1]).startswith("⚠ Tax ignored")   # scenario 2 typed VAT while tracking is off

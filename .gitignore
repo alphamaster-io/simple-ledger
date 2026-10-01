@@ -8,3 +8,4 @@ out.xlsx
 *.calc.xlsx
 ~$*.xlsx
 .~lock.*#
+dist/package/

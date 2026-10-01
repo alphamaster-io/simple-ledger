@@ -1,0 +1,28 @@
+SimpleLedger — License and Terms (DRAFT — have this reviewed before selling)
+
+Copyright (c) 2026 the SimpleLedger authors. All rights reserved.
+
+1. LICENSE GRANT. With your purchase you receive a non-exclusive, non-transferable
+   license to use the SimpleLedger workbook for the internal bookkeeping of the
+   businesses you own or operate. You may make copies for your own businesses and
+   for backups.
+
+2. BOOKKEEPERS. Bookkeepers and accountants may use the workbook for their clients
+   with one purchased license per client business.
+
+3. YOU MAY NOT resell, share, sublicense, publish or distribute the workbook, its
+   formulas or its documentation (in original or modified form), or include it in
+   another product for sale.
+
+4. NO PROFESSIONAL ADVICE. The workbook is a record-keeping tool. It is not tax,
+   legal or accounting advice and is not a certified/registered accounting system
+   for any tax authority. Consult a qualified professional for tax filings.
+
+5. NO WARRANTY. The workbook is provided "as is". To the extent permitted by law,
+   the authors are not liable for any loss arising from its use. You are
+   responsible for checking your records and keeping backups.
+
+6. REFUNDS. See the store listing for the current refund policy.
+
+The source code in this repository (generator, tests, tooling) is proprietary and
+not licensed for redistribution.

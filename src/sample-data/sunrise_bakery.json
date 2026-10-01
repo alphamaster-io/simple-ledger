@@ -1419,6 +1419,16 @@
    "Method": "Cash"
   },
   {
+   "Date": "2026-04-24",
+   "Type": "Money Out",
+   "Category": "Tax Payable",
+   "Desc": "VAT return Q1 2026",
+   "Money": "Bank Account",
+   "Amount": 53482.33,
+   "Method": "Bank Transfer",
+   "Ref": "VAT-Q1"
+  },
+  {
    "Date": "2026-04-25",
    "Type": "Customer Payment",
    "Category": "",
@@ -2613,6 +2623,16 @@
    "Amount": 4740.16,
    "Tax": 507.87,
    "Method": "Cash"
+  },
+  {
+   "Date": "2026-07-24",
+   "Type": "Money Out",
+   "Category": "Tax Payable",
+   "Desc": "VAT return Q2 2026",
+   "Money": "Bank Account",
+   "Amount": 54513.04,
+   "Method": "Bank Transfer",
+   "Ref": "VAT-Q2"
   },
   {
    "Date": "2026-07-25",

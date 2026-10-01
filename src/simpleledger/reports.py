@@ -528,7 +528,7 @@ def build_trial_balance(wb, ws) -> dict:
 
 
 # ----------------------------------------------------------------------------- LEDGER
-LEDGER_FIRST = 14
+LEDGER_FIRST = 16
 
 
 def build_ledger(wb, ws, default_account="Bank Account") -> dict:

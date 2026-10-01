@@ -108,7 +108,7 @@ def books(tmp_path_factory):
         pytest.skip("LibreOffice is required")
     tmp = tmp_path_factory.mktemp("books")
     missing = [n for n in datasets.ALL if n not in _CACHE]
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=2) as pool:
         for name, book in zip(missing, pool.map(lambda n: _make(n, tmp), missing)):
             _CACHE[name] = book
     return _CACHE
